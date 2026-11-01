@@ -24,7 +24,7 @@ task2/                      # Задание 2. Ресурсы Kubernetes (pods,
   replicaset.yaml           #   ReplicaSet с 3 репликами nginx
 task3/                      # Задание 3. Развёртывание приложения (Deployment)
   configmap.yaml            #   ConfigMap (env + файл index.html)
-  secret.yaml               #   Secret (API_KEY)
+  secret.yaml               #   Secret (API\_KEY)
   deployment.yaml           #   Deployment приложения (3 реплики, RollingUpdate)
   service.yaml              #   Service типа NodePort (порт 30000)
   ingress.yaml              #   Ingress (host lab4.local -> service web)
@@ -38,4 +38,5 @@ docs/
 
 # Additional Notes
 
-Репозиторий: https://github.com/fpmi-devops-2026/devops26-devops4gr11-lab4-belyavsky
+Репозиторий: https://github.com/BeliavskiV/lab4\_devops
+
